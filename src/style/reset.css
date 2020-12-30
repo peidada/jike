@@ -1,0 +1,139 @@
+img {
+  width: 100%;
+  height: 100%;
+}
+
+label {
+  font-weight: 700;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+.padding-content {
+  padding: 4px 0;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+a,
+a:focus,
+a:hover {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: #333;
+}
+
+div:focus {
+  outline: none;
+}
+
+div, dl, dt, dd, form, h1, h2, h3, h4, h5, h6, img, ol, ul, li, table, th, td, span, a {
+  border: 0;
+}
+
+img, input, select {
+  border: none;
+  vertical-align: middle;
+  -webkit-appearance: none!important;
+}
+
+/*移动端浏览器黄色*/
+input:-webkit-autofill{
+  -webkit-box-shadow: 0 0 0 1000px white inset;
+}
+
+ul, ol {
+  list-style-type: none;
+}
+
+th, td, input {
+  font-size: 12px;
+}
+
+h3 {
+  font-size: 14px;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  font-size: 12px;
+  background-color: transparent;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+select {
+  border-width: 1px;
+  _zoom: 1;
+  border-style: solid;
+  padding-top: 2px;
+  font-size: 12px;
+  outline: none;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+/*———pc端隐藏Y轴滚动条—— 待验证——*/
+/*webkit内核*/
+.scroll_content::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+/*o内核*/
+.scroll_content .-o-scrollbar {
+  -moz-appearance: none !important;
+  background: rgba(0, 255, 0, 0) !important;
+}
+
+/*IE10,IE11,IE12*/
+.scroll_content{
+  -ms-scroll-chaining: chained;
+  -ms-overflow-style: none;
+  -ms-content-zooming: zoom;
+  -ms-scroll-rails: none;
+  -ms-content-zoom-limit-min: 100%;
+  -ms-content-zoom-limit-max: 500%;
+  -ms-scroll-snap-type: proximity;
+  -ms-scroll-snap-points-x: snapList(100%, 200%, 300%, 400%, 500%);
+  -ms-overflow-style: none;
+  overflow: auto;
+}
+/*———pc端隐藏Y轴滚动条 end————*/

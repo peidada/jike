@@ -1,0 +1,427 @@
+/*————移动端适配————*/
+/*___首页____*/
+@media only screen and (max-width : 768px){
+  html, body, #app {
+    width: 100vw!important;
+    min-width: 100vw!important;
+    overflow-x: hidden!important;
+    font-size: 14px;
+    height: 100vh;
+    overflow-y: scroll;
+    z-index: 100!important;
+  }
+
+  .head-title-tip,
+  .head-oper,
+  .tried-free-btn,
+  .main-tried-btn,
+  .foot-logo,
+  .foot-item-phone,
+  .head-title-txt:after,
+  .main-type-pc,
+  .choose-list,
+  .online-service,
+  .foot-item-phone-pc,
+  .top-header-v2,
+  .top-bg-v2,
+  .plan-img-right,
+  .contact-tel,
+  .contact-wrap .el-divider,
+  .pc-carousel {
+    display: none!important;
+  }
+
+  .choose-type-phone,
+  .header-tel-img,
+  .foot-item-phone-link,
+  .phone-carousel {
+    display: block!important;
+  }
+
+  .phone-carousel {
+    overflow: hidden;
+  }
+  .margin-auto {
+    width: auto!important;
+  }
+
+  .app-wrapper {
+    padding-top: 48px;
+  }
+
+  .header {
+    padding: 0.5rem 0!important;
+    position: fixed!important;
+    min-width: 100vw!important;
+  }
+
+  .oval-radius {
+    border-radius: 95% 95% 0 0/40% 40% 0 0!important;
+    margin-top: 0!important;
+  }
+
+  .head-title-logo {
+    padding-right: 70px;
+  }
+
+  .logo {
+    width: 38px!important;
+    height: 18px!important;
+  }
+
+  .banner-wrap .el-carousel,
+  .banner-wrap .el-carousel__container {
+    /*height: 300px!important;*/
+  }
+
+  .head-title-flex {
+    justify-content: space-around!important;
+  }
+  .head-title {
+    z-index: 100;
+    width: 100% !important;
+  }
+  .main-point-logo-txt {
+    font-size: 2rem!important;
+  }
+  .top-bg-v2 {
+    height: 270px!important;
+  }
+
+  .choose-list {}
+
+  .main-point {
+    height: 16rem!important;
+    padding: 0 0 2rem 2rem!important;
+    background-size: 140% 100%!important;
+    background-position: center center;
+  }
+  .main-point-wrap {
+    width: 100% !important;
+  }
+  .main-point-second {
+    font-size: 1.3rem!important;
+  }
+  .main-point-wrap p {
+    margin: 0!important;
+  }
+
+  .main-plan {
+    height: auto!important;
+    overflow: hidden;
+  }
+  .main-plan-tip {
+    font-size: 1.3rem!important;
+    padding-top: 0!important;
+    margin-bottom: 2rem!important;
+    margin-top: 0!important;
+  }
+  .main-plan-tip:after {
+    left: 43% !important;
+    top: -10px;
+    width: 50px!important;
+  }
+
+  .oval-radius {
+    width: 100%!important;
+    height: 300px!important;
+    top: -30px!important;
+  }
+
+  .choose-list-phone {
+    padding-bottom: 10px;
+  }
+
+  .plan-img {
+    width: 21rem!important;
+    height: 13rem!important;
+  }
+  .plan-img img {
+    transform: scale(1.2);
+  }
+  .line {
+    background: none!important;
+    width: 140px!important;
+    margin-top: 16px!important;
+  }
+  .line:after {
+    left: 120% !important;
+    height: 5px!important;
+  }
+
+  .main-type {
+    width: 95.5% !important;
+    height: 440px!important;
+    flex-wrap: wrap!important;
+  }
+  .main-type-title {
+    font-size: 1.4rem!important;
+    text-align: center!important;
+    margin-bottom: 20px;
+    line-height: 60px;
+  }
+
+  .main-type-txt {
+    margin-right: 0!important;
+  }
+
+  .main-type-title:after {
+    content: "";
+    display: block;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 5px;
+    background-color: #2FCEE3;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+  }
+  .main-type .line {
+    display: none;
+  }
+  .main-type-detail {
+    font-size: 1.1rem!important;
+    line-height: 25px!important;
+    text-align: center!important;
+    padding: 0 20px;
+  }
+
+  .main-type-right {
+    width: 20rem!important;
+    height: 16rem!important;
+    margin: 15px auto 0!important;
+  }
+  .now-try {
+    height: 16rem!important;
+    background-image: url("../../assets/img/now-bg-phone.png") !important;
+    background-color: rgba(58, 143, 254, 1) !important;
+    background-position: center center;
+    background-size: 100% 210px!important;
+    background-repeat: no-repeat;
+  }
+  .now-try-txt {
+    font-size: 1.4rem!important;
+    padding: 0 2.1rem;
+  }
+  .footer {
+    padding-top: 5px!important;
+    padding-bottom: 7rem!important;
+    padding-left: 0!important;
+  }
+  .foot-item {
+    width: 80%;
+  }
+  .foot-item li {
+    display: inline-block;
+  }
+
+  .footer-line {
+    bottom: 53% !important;
+    width: 100% !important;
+    left: 0!important;
+    margin: 0!important;
+  }
+  .footer-txt {
+    bottom: 37% !important;
+    font-size: .9rem!important;
+  }
+  .foot-item-work-time {
+    padding-left: 80px;
+  }
+  .foot-phone {
+    display: block!important;
+  }
+  .choose-reason {
+    padding-bottom: 10px!important;
+  }
+  .choose-reason-phone {
+    display: block!important;
+  }
+
+  .choose-reason-pc {
+    display: none!important;
+  }
+  .now-try-btn {
+    width: 130px!important;
+    line-height: 40px!important;
+
+  }
+
+  .try-modal .el-dialog {
+    height: 560px!important;
+    background-image: url("../../assets/img/modal-phone.png") !important;
+    background-size: 100% 100% !important;
+    border-radius: 10px;
+  }
+  .try-modal .el-dialog {
+    width: 88% !important;
+  }
+  .try-modal .el-form {
+    width: 90%!important;
+    margin: -15px auto 0!important;
+  }
+  .try-modal .el-form-item__content {
+    margin-left: 0!important;
+  }
+  .try-modal .apply-btn {
+    width: 100% !important;
+    margin-left: 0!important;
+  }
+  .try-modal .try-modal-title {
+    margin-top: 25%;
+    padding-left: 0!important;
+    line-height: 40px;
+    text-align: center;
+  }
+  .get-code-btn {
+    padding: 6px 8px!important;
+    font-size: 12px!important;
+    top: 50% !important;
+  }
+  .try-modal .el-form-item {
+    margin-bottom: 18px!important;
+  }
+  .foot-link-details {
+    width: 100% !important;
+    padding-left: 0!important;
+  }
+
+  .main-plan {
+    margin-bottom: 65px!important;
+  }
+  .main-plan-type {
+    width: 100%!important;
+    justify-content: center!important;
+  }
+  .choose-type .choose-item {
+    width: 90px!important;
+    height: 78px!important;
+    background-size: 90px 78px!important;
+    margin: 0 0 15px 0!important;
+  }
+  .choose-type .item-img {
+    width: 60px!important;
+    height: 54px!important;
+  }
+
+  /*___联系我们___*/
+  .contact-wrap {
+    padding: 0!important;
+  }
+  .contact-wrap .stay-link {
+    font-size: 22px!important;
+    position: relative;
+    margin-bottom: 10px;
+  }
+  .contact-main,
+  .main-type-main,
+  .main-type-txt {
+    width: 100vw!important;
+  }
+
+  .main-type-main {
+    flex-wrap: wrap;
+    margin-top: 0!important;
+  }
+
+  .stay-link:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 6px;
+    background-color: #2FCEE3;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+  }
+  .contact-wrap .el-form-item {
+    margin-bottom: 18px!important;
+  }
+  .contact-wrap .el-form-item__content {
+    margin-left: 0!important;
+  }
+  .contact-link {
+    width: 92% !important;
+    padding-bottom: 50px;
+    margin-right: 0!important;
+  }
+  .picker-area,
+  .tel,
+  .code,
+  .name {
+    width: 100% !important;
+  }
+
+  .appointment {
+    margin-left: 0!important;
+    width: 99.1% !important
+  }
+  .picker-area .distpicker-address-wrapper select{
+    width: 49.3% !important;
+    float: none!important;
+    font-size: 14px!important;
+    padding: .5rem .99rem!important;
+  }
+
+  /*移动端banner*/
+  .banner-wrap {
+    height: 250px!important;
+    margin-bottom: 15px;
+    margin-top: 0!important;
+  }
+  /*banner 指示器底部*/
+  .banner-wrap .el-carousel__indicators--outside button {
+    width: 13px!important;
+    height: 6px!important;
+  }
+
+  .banner-wrap .el-carousel__indicators {
+    margin-top: -20px!important;
+  }
+
+  .banner-wrap .el-carousel__indicator.is-active button {
+    width: 20px!important;
+    overflow: hidden;
+  }
+  .banner-wrap .el-image img {
+    width: 100%!important;
+    transform: none!important;
+    object-fit: cover!important;
+  }
+  /*banner 指示器结束*/
+  .banner-wrap .el-image {
+    width: 100% !important
+  }
+  /*______toast_____ 弹窗*/
+  .toast-footer {
+    display: none;
+  }
+  .toast-container {
+    width: 80% !important;
+    height: 45% !important
+  }
+
+  .toast-container {
+    box-shadow: 0 0 26px 9px #646464!important;
+  }
+  .toast-slot {
+    font-size: 16px!important;
+    line-height: 50px!important;
+  }
+  .toast-colse {
+    display: block!important;
+  }
+  .toast-header {
+    padding-top: 0!important;
+  }
+  /*______toast_____ 弹窗end*/
+}

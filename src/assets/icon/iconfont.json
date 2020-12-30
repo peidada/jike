@@ -1,0 +1,30 @@
+{
+  "id": "2209663",
+  "name": "集客云",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "5716670",
+      "name": "下  拉",
+      "font_class": "down-hollow",
+      "unicode": "e7a6",
+      "unicode_decimal": 59302
+    },
+    {
+      "icon_id": "4518877",
+      "name": "咨询",
+      "font_class": "zixun",
+      "unicode": "e68d",
+      "unicode_decimal": 59021
+    },
+    {
+      "icon_id": "9510678",
+      "name": "置顶",
+      "font_class": "zhiding1",
+      "unicode": "e658",
+      "unicode_decimal": 58968
+    }
+  ]
+}

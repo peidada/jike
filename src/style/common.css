@@ -1,0 +1,124 @@
+/*common*/
+
+.fr {
+  float: right;
+}
+
+.fl {
+  float: left;
+}
+
+.block {
+  display: block;
+}
+
+.block {
+  display: block;
+}
+
+.inline-block {
+  display: inline-block;
+}
+.none {
+  display: none;
+}
+
+.hidden {
+  visibility: hidden;
+}
+/*___flex_____*/
+.flex {
+  display: flex;
+}
+.space-around {
+  justify-content: space-around;
+}
+.space-between {
+  justify-content: space-between;
+}
+.center {
+  justify-content: center;
+}
+.align-center {
+  align-items: center;
+}
+.nowrap {
+  flex-wrap: nowrap;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+/*___font-size_____*/
+.font-14 {
+  font-size: 14px;
+}
+.font-16 {
+  font-size: 16px!important;
+}
+.font-18 {
+  font-size: 18px;
+}
+.font-20 {
+  font-size: 20px!important;
+}
+.font-22 {
+  font-size: 22px;
+}
+.font-24 {
+  font-size: 24px;
+}
+.font-26 {
+  font-size: 26px;
+}
+.font-28 {
+  font-size: 28px;
+}
+.font-30 {
+  font-size: 30px;
+}
+.font-32 {
+  font-size: 32px;
+}
+.font-34 {
+  font-size: 34px;
+}
+.font-38 {
+  font-size: 38px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/*___cursor_____*/
+.pointer {
+  cursor: pointer;
+}
+
+/*____color____*/
+.white {
+  color: #ffffff!important;
+}
+
+.color-blueblack {
+  color: rgba(0, 42, 95, 1) !important
+}
+
+/*____定位_____*/
+.relative {
+  position: relative;
+}
+
+.margin-auto {
+  margin: 0 auto;
+}
+
+.z-index-99 {
+  z-index: 99;
+}

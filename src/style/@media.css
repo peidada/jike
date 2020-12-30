@@ -1,0 +1,67 @@
+/*————1024  1100  1280  1366  1440  1680  1920  2048-大mac————*/
+
+@media only screen and (min-width : 720px){
+  .main-point-wrap .tried-free-btn {
+    margin-left: -44% !important
+  }
+  .ifame-height {
+    height: 500px!important;
+  }
+  .consult-wrap .el-dialog {
+    top: 30% !important
+  }
+}
+
+@media only screen and (min-width : 768px){
+  .main-type-phone {
+    display: none!important;
+  }
+}
+
+@media only screen and (min-width : 1100px){
+  .tried-free-btn {
+    left: 0 !important;
+  }
+}
+
+@media only screen and (min-width : 1440px){
+  .tried-free-btn {
+    left: 100px !important;
+  }
+
+  .main-point-wrap .tried-free-btn {
+    bottom: 13% !important;
+  }
+  .el-dialog {
+    max-height: 500px!important;
+  }
+
+  .contact-link {
+    width: 550px!important;
+  }
+  .contact-wrap .el-form-item__content {
+    margin-left: 10px !important;
+  }
+}
+
+/*1680*/
+@media only screen and (min-width : 1680px){
+  .contact-wrap {
+    padding-left: 20.5% !important;
+    padding-right: 17% !important;
+  }
+  .choose-item:hover {
+    /*width: 20% !important;*/
+  }
+}
+
+@media only screen and (min-width : 1920px){
+  .banner-inner-wrap,
+  .tried-free-btn {
+    left: 21.2% !important;
+  }
+}
+
+@media only screen and (min-width : 2048px){
+
+}
